@@ -93,7 +93,6 @@ export default function UserDirectory() {
       </div>
       {error && <div className="alert alert-danger">{error}</div>}
       <table className="table table-striped table-hover">
-        <caption>A list of users</caption>
         <thead>
           <tr>
             <th scope="col" onClick={() => handleSort('name')}>Name</th>
